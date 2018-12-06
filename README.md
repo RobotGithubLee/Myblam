@@ -11,7 +11,7 @@ How to build with catkin:
 
 ```
 $ cd ~/catkin_ws/src/
-$ git clone https://github.com/laboshinl/loam_velodyne.git
+$ git clone https://github.com:RobotGithubLee/Myblam.git
 $ cd ~/catkin_ws
 $ catkin_make -DCMAKE_BUILD_TYPE=Release 
 $ source ~/catkin_ws/devel/setup.bash
@@ -19,7 +19,7 @@ $ source ~/catkin_ws/devel/setup.bash
 
 Running:
 ```
-roslaunch loam_velodyne loam_velodyne.launch
+roslaunch blam_example test_online.launch
 ```
 
 In second terminal play sample velodyne data from [VLP16 rosbag](https://db.tt/t2r39mjZ):
